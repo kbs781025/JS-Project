@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <nav id="menu-bar" class="menu-bar">
+      <div class="profile">
+        <img
+          src="https://randomuser.me/api/portraits/men/76.jpg"
+          alt="profile"
+        />
+      </div>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#">Home</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Contact me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="top-header">
+      <button id="toggle-button" class="toggle-button">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>This is my side project.</p>
+      <button id="signup-button" class="signup-button">
+        Sign Up
+      </button>
+    </header>
+    <div class="content-wrapper">
+      <h3>What is this landing page about?</h3>
+      <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente optio officia ipsa. Cum dignissimos possimus
+        et non provident facilis saepe!
+      </h5>
+      <h2>What is this landing page about?</h2>
+      <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente optio officia ipsa. Cum dignissimos possimus
+        et non provident facilis saepe!
+      </h5>
+      <h2>What is this landing page about?</h2>
+      <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente optio officia ipsa. Cum dignissimos possimus
+        et non provident facilis saepe!
+      </h5>
+      <h2>What is this landing page about?</h2>
+      <h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure
+        accusamus ab consectetur eos provident ipsa est perferendis architecto.
+        Provident, quaerat asperiores. Quo esse minus repellat sapiente, impedit
+        obcaecati necessitatibus. Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Sapiente optio officia ipsa. Cum dignissimos possimus
+        et non provident facilis saepe!
+      </h5>
+    </div>
+
+    <div id="modal-wrapper" class="modal-wrapper hidden">
+      <div class="modal">
+        <button class="close-button">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label class="form-label" for="name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+              />
+            </div>
+            <div>
+              <label class="form-label" for="email">E-mail</label>
+              <input
+                class="form-input"
+                type="text"
+                id="email"
+                placeholder="Enter E-mail"
+              />
+            </div>
+            <div>
+              <label class="form-label" for="password">Password</label>
+              <input
+                class="form-input"
+                type="text"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label class="form-label" for="confimed-password"
+                >Confirm Password</label
+              >
+              <input
+                class="form-input"
+                type="text"
+                id="confimed-password"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
